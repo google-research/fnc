@@ -4,6 +4,12 @@ This repository contains pretrained models and code base for the paper ["Boostin
 
 ## Pre-trained models
 
+|          | Semi-supervised (1%) | Semi-supervised (10%) | Linear eval | Supervised |
+|   :-:    |         :-:          |         :-:           |    :-:      |    :-:     |
+|  Top-1   |         63.7         |         71.1          |    74.4     |    76.5    |
+|  Top-5   |         85.3         |         90.2          |    91.8     |    93.3    |
+
+
 * Pretrained FNC model (with linear eval head): [gs://fnc_checkpoints/ResNet-50/pretrained_linear_eval](https://console.cloud.google.com/storage/browser/fnc_checkpoints/ResNet-50/pretrained_linear_eval)
 * Fine-tuned FNC model on 1% of labels: [gs://fnc_checkpoints/ResNet-50/finetuned_semi1pt](https://console.cloud.google.com/storage/browser/fnc_checkpoints/ResNet-50/finetuned_semi1pt)
 * Fine-tuned FNC models on 10% of labels: [gs://fnc_checkpoints/ResNet-50/finetuned_semi10pt](https://console.cloud.google.com/storage/browser/fnc_checkpoints/ResNet-50/finetuned_semi10pt)
