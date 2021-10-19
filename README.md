@@ -95,7 +95,7 @@ python run.py --mode=train --train_mode=finetune \
 @article{huynh2020fnc,
   title={Boosting Contrastive Self-Supervised Learning with False Negative Cancellation},
   author={Huynh, Tri and Kornblith, Simon and Walter, Matthew R. and Maire, Michael and Khademi, Maryam},
-  journal={arXiv preprint arXiv:2011.11765},
+  journal={Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV)},
   year={2020}
 }
 ```
