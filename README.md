@@ -4,10 +4,12 @@ This repository contains pretrained models and code base for the paper ["Boostin
 
 ## Pre-trained models
 
-|      |  Semi-supervised (1%) |   Semi-supervised (10%) |   Linear eval |   Supervised |
-|--------:|--------:|------:|--------:|-------------:|--------------:|---------------:|-----------------:|--------------:|
-|      Top-1 |  63.7     |   71.1    |  74.4   |   76.5      |     
-|      Top-5 |  85.3     |   90.2    |  91.8   |    93.3     |   
++----------+----------------------+-----------------------+-------------+------------+
+|          | Semi-supervised (1%) | Semi-supervised (10%) | Linear eval | Supervised |
++----------+----------------------+-----------------------+-------------+------------+
+|  Top-1   |         63.7         |         71.1          |    74.4     |    76.5    |
+|  Top-5   |         85.3         |         90.2          |    91.8     |    93.3    |
++----------+----------------------+-----------------------+-------------+------------+
 
 
 * Pretrained FNC model (with linear eval head): [gs://fnc_checkpoints/ResNet-50/pretrained_linear_eval](https://console.cloud.google.com/storage/browser/fnc_checkpoints/ResNet-50/pretrained_linear_eval)
@@ -92,11 +94,11 @@ python run.py --mode=train --train_mode=finetune \
 [FNC paper](https://arxiv.org/abs/2011.11765):
 
 ```
-@article{huynh2020fnc,
+@article{huynh2022fnc,
   title={Boosting Contrastive Self-Supervised Learning with False Negative Cancellation},
   author={Huynh, Tri and Kornblith, Simon and Walter, Matthew R. and Maire, Michael and Khademi, Maryam},
   journal={Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV)},
-  year={2020}
+  year={2022}
 }
 ```
 ## Acknowledgement
